@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: url("./slika.jpg") no-repeat fixed center center;
+}
+.container{
+    margin: 10rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px #323232;
+}
+
+.cifre{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cifre span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.cifre p{
+    font-weight: bold;
+}
